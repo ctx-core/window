@@ -30,7 +30,7 @@
 	},
 	"dependencies": {
 		"@ctx-core/dom": "^5.10.27",
-		"svelte": "^3.16.0"
+		"svelte": "^3.16.4"
 	},
 	"devDependencies": {
 		"typescript": "^3.7.3"

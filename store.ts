@@ -20,7 +20,7 @@ export const __hostname__location__window = derived([
 		__location__window
 	],
 	([hostname, location__window]) =>
-		(location__window && location__window.__hostname) || hostname || '')
+		(location__window && location__window.hostname) || hostname || '')
 export const __pathname__location__window = derived([
 		__pathname,
 		__location__window

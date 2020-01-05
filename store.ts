@@ -31,6 +31,9 @@ export const b__location__window = _b<Writable__location__window>('__location__w
 	}
 })
 export const __location__window = b__location__window()
+export const {
+	reset__location__window,
+} = __location__window
 export const b__hostname__location__window = _b('__hostname__location__window', ctx=>
 	derived([
 			b__hostname(ctx),

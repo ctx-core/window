@@ -8,6 +8,7 @@ export interface Writable__location__window extends Writable<falsy | Location> {
 }
 export declare const b__location__window: (ctx?: any, opts?: any) => Writable__location__window;
 export declare const __location__window: Writable__location__window;
+export declare const reset__location__window: () => void;
 export declare const b__hostname__location__window: (ctx?: any, opts?: any) => import("svelte/store").Readable<any>;
 export declare const __hostname__location__window: import("svelte/store").Readable<any>;
 export declare const b__pathname__location__window: (ctx?: any, opts?: any) => import("svelte/store").Readable<any>;

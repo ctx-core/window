@@ -29,8 +29,8 @@
 		"access": "public"
 	},
 	"dependencies": {
-		"@ctx-core/dom": "^5.12.12",
-		"@ctx-core/object": "^8.0.5",
+		"@ctx-core/dom": "^5.12.13",
+		"@ctx-core/object": "^8.0.6",
 		"svelte": "^3.20.1"
 	},
 	"devDependencies": {

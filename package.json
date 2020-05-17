@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/window",
-	"version": "6.2.43",
+	"version": "6.2.44",
 	"description": "ctx-core window",
 	"main": "store.js",
 	"module": "store.js",
@@ -29,7 +29,7 @@
 		"access": "public"
 	},
 	"dependencies": {
-		"@ctx-core/dom": "^5.13.5",
+		"@ctx-core/dom": "^5.13.6",
 		"@ctx-core/object": "^8.0.9",
 		"svelte": "^3.22.3"
 	},

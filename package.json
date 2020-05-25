@@ -2,7 +2,6 @@
 	"name": "@ctx-core/window",
 	"version": "6.2.48",
 	"description": "ctx-core window",
-	"type": "module",
 	"main": "store.js",
 	"module": "store.js",
 	"types": "store.ts",

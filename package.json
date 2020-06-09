@@ -31,10 +31,10 @@
 	"dependencies": {
 		"@ctx-core/dom": "^5.13.12",
 		"@ctx-core/object": "^8.0.14",
-		"svelte": "^3.23.0"
+		"svelte": "^3.23.1"
 	},
 	"devDependencies": {
-		"typescript": "^3.9.3"
+		"typescript": "^3.9.5"
 	},
 	"gitHead": "eba58adf163a57b519a69b213c9e49c25deae4f9"
 }

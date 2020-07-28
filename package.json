@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/window",
-	"version": "6.2.84",
+	"version": "6.2.85",
 	"description": "ctx-core window",
 	"main": "./index.js",
 	"module": "./index.js",
@@ -29,8 +29,8 @@
 		"access": "public"
 	},
 	"dependencies": {
-		"@ctx-core/dom": "^6.0.3",
-		"@ctx-core/object": "^8.1.5",
+		"@ctx-core/dom": "^6.0.4",
+		"@ctx-core/object": "^8.1.6",
 		"svelte": "^3.24.0"
 	},
 	"devDependencies": {

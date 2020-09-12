@@ -1,5 +1,5 @@
 import { Writable } from 'svelte/store';
-import { falsy } from '@ctx-core/function';
+import type { falsy } from '@ctx-core/function';
 export declare const b__hostname: (ctx?: any, opts?: any) => Writable<any>;
 export declare const __hostname: Writable<any>;
 export declare const b__pathname: (ctx?: any, opts?: any) => Writable<any>;

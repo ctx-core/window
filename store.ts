@@ -1,7 +1,7 @@
 import { writable, derived, get, Writable } from 'svelte/store'
 import { _has__dom } from '@ctx-core/dom'
 import { assign, _b } from '@ctx-core/object'
-import { falsy } from '@ctx-core/function'
+import type { falsy } from '@ctx-core/function'
 export const b__hostname = _b('__hostname', ()=>
 	writable(null))
 export const __hostname = b__hostname()

@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/window",
-	"version": "6.2.115",
+	"version": "6.2.116",
 	"description": "ctx-core window",
 	"main": "./index.js",
 	"module": "./index.js",

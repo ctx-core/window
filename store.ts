@@ -1,17 +1,18 @@
 import { writable, derived, get, Writable } from 'svelte/store'
 import { _has__dom } from '@ctx-core/dom'
 import { assign, _b } from '@ctx-core/object'
-import type { falsy } from '@ctx-core/function'
+import type { maybe } from '@ctx-core/function'
 export const b__hostname = _b('__hostname', ()=>
 	writable(null))
 export const __hostname = b__hostname()
 export const b__pathname = _b('__pathname', ()=>
 	writable(null))
-export interface Writable__location__window extends Writable<falsy|Location> {
+export type $type__location__window = maybe<Location>
+export interface type__location__window extends Writable<$type__location__window> {
 	reset__location__window:()=>void
 }
-export const b__location__window = _b<Writable__location__window>('__location__window', ()=>{
-	const __location__window = writable(null)
+export const b__location__window = _b<type__location__window>('__location__window', ()=>{
+	const __location__window = writable(null) as type__location__window
 	const __bound__popstate__reload__location__window = writable(null)
 	if (_has__dom()) {
 		reset__location__window()
@@ -39,16 +40,16 @@ export const b__hostname__location__window = _b('__hostname__location__window', 
 			b__hostname(ctx),
 			b__location__window(ctx),
 		],
-		([hostname, location__window])=>
-			(location__window && location__window.hostname) || hostname || ''))
+		([hostname, location__window]: [string, $type__location__window])=>
+			(location__window && (location__window as Location).hostname) || hostname || ''))
 export const __hostname__location__window = b__hostname__location__window()
 export const b__pathname__location__window = _b('__pathname__location__window', ctx=>
 	derived([
 			b__pathname(ctx),
 			b__location__window(ctx),
 		],
-		([pathname, location__window])=>
-			(location__window && location__window.pathname)
+		([pathname, location__window]: [string, $type__location__window])=>
+			(location__window && (location__window as Location).pathname)
 			|| pathname
 			|| ''))
 export const __pathname__location__window = b__pathname__location__window()

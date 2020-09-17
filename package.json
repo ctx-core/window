@@ -28,9 +28,9 @@
   },
   "dependencies": {
     "@ctx-core/dom": "workspace:*",
+    "@ctx-core/function": "workspace:*",
     "@ctx-core/object": "workspace:*",
-    "svelte": "~3.25.1",
-    "@ctx-core/function": "workspace:*"
+    "svelte": "~3.25.1"
   },
   "devDependencies": {
     "typescript": "^4.0.2"

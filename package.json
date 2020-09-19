@@ -1,6 +1,6 @@
 {
   "name": "@ctx-core/window",
-  "version": "6.2.118",
+  "version": "7.0.0",
   "description": "ctx-core window",
   "keywords": [
     "ctx-core",
@@ -33,7 +33,7 @@
     "svelte": "~3.25.1"
   },
   "devDependencies": {
-    "typescript": "^4.0.2"
+    "typescript": "^4.0.3"
   },
   "publishConfig": {
     "access": "public"

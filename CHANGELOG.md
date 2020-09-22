@@ -1,5 +1,12 @@
 # @ctx-core/window
 
+## 7.0.12
+
+### Patch Changes
+
+- svelte: ~3.25.1 -> 3.26.0
+  - @ctx-core/dom@7.0.12
+
 ## 7.0.11
 
 ### Patch Changes

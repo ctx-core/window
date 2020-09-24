@@ -1,5 +1,11 @@
 # @ctx-core/window
 
+## 7.0.20
+
+### Patch Changes
+
+- @ctx-core/dom@7.0.20
+
 ## 7.0.19
 
 ### Patch Changes

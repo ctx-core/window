@@ -1,5 +1,13 @@
 # @ctx-core/window
 
+## 7.0.29
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/object@12.0.11
+  - @ctx-core/dom@7.0.29
+
 ## 7.0.28
 
 ### Patch Changes

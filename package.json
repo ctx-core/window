@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/window",
-	"version": "7.0.30",
+	"version": "7.0.31",
 	"description": "ctx-core window",
 	"keywords": [
 		"ctx-core",
@@ -27,9 +27,9 @@
 		"prepublishOnly": "npm run compile"
 	},
 	"dependencies": {
-		"@ctx-core/dom": "workspace:^7.0.30",
+		"@ctx-core/dom": "workspace:^7.0.31",
 		"@ctx-core/function": "workspace:^16.1.1",
-		"@ctx-core/object": "workspace:^12.0.11",
+		"@ctx-core/object": "workspace:^12.0.12",
 		"svelte": "3.27.0"
 	},
 	"devDependencies": {

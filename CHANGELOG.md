@@ -1,5 +1,11 @@
 # @ctx-core/window
 
+## 7.0.38
+
+### Patch Changes
+
+- @ctx-core/dom@7.0.38
+
 ## 7.0.37
 
 ### Patch Changes

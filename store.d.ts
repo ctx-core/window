@@ -1,4 +1,4 @@
-import { Writable, Readable } from 'svelte/store';
+import { Writable, Readable } from '@ctx-core/store';
 import type { maybe, maybe_null } from '@ctx-core/function';
 export declare type $hostname_type = maybe_null<string>;
 export declare type hostname_type = Writable<$hostname_type>;

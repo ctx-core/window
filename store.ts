@@ -1,4 +1,4 @@
-import { writable, derived, get, Writable, Readable } from 'svelte/store'
+import { writable, derived, get, Writable, Readable } from '@ctx-core/store'
 import { _has__dom } from '@ctx-core/dom'
 import { assign, _b } from '@ctx-core/object'
 import type { maybe, maybe_null } from '@ctx-core/function'

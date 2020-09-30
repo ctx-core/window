@@ -1,5 +1,15 @@
 # @ctx-core/window
 
+## 7.0.45
+
+### Patch Changes
+
+- fix: tsc build issues
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+  - @ctx-core/store@23.0.3
+  - @ctx-core/dom@7.0.46
+
 ## 7.0.44
 
 ### Patch Changes

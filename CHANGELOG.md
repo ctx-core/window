@@ -1,5 +1,12 @@
 # @ctx-core/window
 
+## 7.0.48
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/dom@7.1.0
+
 ## 7.0.47
 
 ### Patch Changes

@@ -1,5 +1,14 @@
 # @ctx-core/window
 
+## 7.0.54
+
+### Patch Changes
+
+- svelte: 3.29.6 -> 3.29.7
+- Updated dependencies [undefined]
+  - @ctx-core/store@23.0.11
+  - @ctx-core/dom@7.1.6
+
 ## 7.0.53
 
 ### Patch Changes

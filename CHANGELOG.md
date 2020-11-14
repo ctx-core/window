@@ -1,5 +1,12 @@
 # @ctx-core/window
 
+## 7.0.55
+
+### Patch Changes
+
+- @ctx-core/store@23.0.12
+- @ctx-core/dom@7.1.7
+
 ## 7.0.54
 
 ### Patch Changes

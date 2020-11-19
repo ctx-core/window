@@ -1,5 +1,16 @@
 # @ctx-core/window
 
+## 7.0.56
+
+### Patch Changes
+
+- typescript: ^4.0.5 -> ^4.1.2
+- Updated dependencies [undefined]
+  - @ctx-core/dom@7.1.8
+  - @ctx-core/function@16.1.3
+  - @ctx-core/object@13.0.2
+  - @ctx-core/store@23.0.13
+
 ## 7.0.55
 
 ### Patch Changes

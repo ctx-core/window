@@ -1,5 +1,12 @@
 # @ctx-core/window
 
+## 8.0.3
+
+### Patch Changes
+
+- @ctx-core/store@23.1.10
+- @ctx-core/dom@7.1.21
+
 ## 8.0.2
 
 ### Patch Changes

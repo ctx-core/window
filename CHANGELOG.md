@@ -1,5 +1,11 @@
 # @ctx-core/window
 
+## 8.0.0
+
+### Major Changes
+
+- b**hostname**location\_\_window->window_location_hostname_b
+
 ## 7.1.5
 
 ### Patch Changes

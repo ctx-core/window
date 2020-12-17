@@ -10,11 +10,11 @@ export const window_location_hostname_b = _b('window_location_hostname', ctx=>
 		],
 		([hostname, location__window]:[$hostname_type, $window_location_type])=>
 			(location__window && (location__window as Location).hostname) || hostname || ''
-	) as window_location_hostname
+	) as window_location_hostname_type
 )
-export type $window_location_hostname = maybe_null<string>
-export interface window_location_hostname extends Readable<$window_location_hostname> {}
+export type $window_location_hostname_type = maybe_null<string>
+export interface window_location_hostname_type extends Readable<$window_location_hostname_type> {}
 export type {
-	$window_location_hostname as $hostname__location__window,
-	window_location_hostname as hostname__location__window
+	$window_location_hostname_type as $hostname__location__window,
+	window_location_hostname_type as hostname__location__window
 }

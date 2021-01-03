@@ -1,5 +1,11 @@
 # @ctx-core/window
 
+## 8.0.18
+
+### Patch Changes
+
+- @ctx-core/dom@7.1.36
+
 ## 8.0.17
 
 ### Patch Changes

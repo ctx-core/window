@@ -1,5 +1,13 @@
 # @ctx-core/window
 
+## 8.0.28
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/store@23.4.0
+  - @ctx-core/dom@7.1.46
+
 ## 8.0.27
 
 ### Patch Changes

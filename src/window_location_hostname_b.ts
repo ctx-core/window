@@ -14,7 +14,3 @@ export const window_location_hostname_b = _b('window_location_hostname', ctx=>
 )
 export type $window_location_hostname_type = maybe_null<string>
 export interface window_location_hostname_type extends Readable<$window_location_hostname_type> {}
-export type {
-	$window_location_hostname_type as $hostname__location__window,
-	window_location_hostname_type as hostname__location__window
-}

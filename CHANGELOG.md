@@ -1,5 +1,12 @@
 # @ctx-core/window
 
+## 9.0.2
+
+### Patch Changes
+
+- fix: remove export type aliases causing build issues
+  - @ctx-core/dom@8.0.2
+
 ## 9.0.1
 
 ### Patch Changes

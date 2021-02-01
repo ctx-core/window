@@ -6,4 +6,4 @@ export interface window_location_type extends Writable<$window_location_type> {
     reset_window_location: () => void;
     reset__location__window: () => void;
 }
-export { $window_location_type as $type__location__window, window_location_b as b__location__window, window_location_type as type__location__window, };
+export { window_location_b as b__location__window, };

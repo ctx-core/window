@@ -12,12 +12,10 @@ export const window_location_pathname_b = _b('window_location_pathname', ctx=>
 			(location__window && (location__window as Location).pathname)
 			|| pathname
 			|| ''
-	) as window_location_pathname
+	) as window_location_pathname_type
 )
 export type $window_location_pathname_type = maybe_null<string>
-export interface window_location_pathname extends Readable<$window_location_pathname_type> {}
+export interface window_location_pathname_type extends Readable<$window_location_pathname_type> {}
 export {
-	$window_location_pathname_type as $pathname__location__window,
-	window_location_pathname as pathname__location__window,
 	window_location_pathname_b as b__pathname__location__window,
 }

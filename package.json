@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/window",
-	"version": "9.0.2",
+	"version": "9.0.3",
 	"description": "ctx-core window",
 	"keywords": [
 		"ctx-core",
@@ -27,7 +27,7 @@
 		"prepublishOnly": "npm run compile"
 	},
 	"dependencies": {
-		"@ctx-core/dom": "workspace:^8.0.2",
+		"@ctx-core/dom": "workspace:^8.1.0",
 		"@ctx-core/function": "workspace:^17.0.0",
 		"@ctx-core/object": "workspace:^17.0.0",
 		"@ctx-core/store": "workspace:^24.0.1",

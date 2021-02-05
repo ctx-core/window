@@ -1,5 +1,12 @@
 # @ctx-core/window
 
+## 9.0.9
+
+### Patch Changes
+
+- @ctx-core/store@24.0.7
+- @ctx-core/dom@8.1.6
+
 ## 9.0.8
 
 ### Patch Changes

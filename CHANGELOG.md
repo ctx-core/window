@@ -1,5 +1,16 @@
 # @ctx-core/window
 
+## 9.0.36
+
+### Patch Changes
+
+- fix: npm run compile: tsc -b .
+- Updated dependencies [undefined]
+  - @ctx-core/dom@8.2.13
+  - @ctx-core/function@17.4.2
+  - @ctx-core/object@17.4.1
+  - @ctx-core/store@24.1.14
+
 ## 9.0.35
 
 ### Patch Changes

@@ -1,5 +1,16 @@
 # @ctx-core/window
 
+## 9.0.37
+
+### Patch Changes
+
+- fix: npm publish: https://github.com/npm/cli/issues/2834
+- Updated dependencies [undefined]
+  - @ctx-core/dom@8.2.14
+  - @ctx-core/function@17.4.3
+  - @ctx-core/object@17.4.2
+  - @ctx-core/store@24.1.15
+
 ## 9.0.36
 
 ### Patch Changes

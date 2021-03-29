@@ -1,5 +1,16 @@
 # @ctx-core/window
 
+## 9.0.38
+
+### Patch Changes
+
+- version bump
+- Updated dependencies [undefined]
+  - @ctx-core/dom@8.2.15
+  - @ctx-core/function@17.4.4
+  - @ctx-core/object@17.4.3
+  - @ctx-core/store@24.1.16
+
 ## 9.0.37
 
 ### Patch Changes

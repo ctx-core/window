@@ -1,20 +1,24 @@
 import { _b, assign } from '@ctx-core/object'
-import { get, Writable, writable } from '@ctx-core/store'
 import { has_dom } from '@ctx-core/dom'
-import type { maybe } from '@ctx-core/function'
-export const window_location_b = _b('window_location', ()=>{
-	const window_location = writable<$window_location_type>(null)
-	const window_location_reload_popstate_bound = writable(null) as Writable<null|boolean>
+import { Writable$, writable$ } from '@ctx-core/store'
+const key = 'window_location'
+export interface window_location_Ctx {
+	window_location?:window_location_T
+}
+export const window_location_b = _b<window_location_Ctx, typeof key>(key, ()=>{
+	const window_location = writable$<$window_location_T>(undefined)
+	const window_location_reload_popstate_bound =
+		writable$(undefined) as Writable$<boolean|undefined>
 	if (has_dom) {
 		reset_window_location()
 	}
 	return assign(window_location, {
 		reset_window_location,
 		reset__location__window: reset_window_location,
-	}) as window_location_type
+	}) as window_location_T
 	function reset_window_location() {
 		if (!has_dom) return
-		if (!get(window_location_reload_popstate_bound)) {
+		if (!window_location_reload_popstate_bound.$) {
 			window_location_reload_popstate_bound.set(true)
 			window.addEventListener(
 				'popstate',
@@ -23,8 +27,8 @@ export const window_location_b = _b('window_location', ()=>{
 		window_location.set(window.location)
 	}
 })
-export type $window_location_type = maybe<Location>
-export interface window_location_type extends Writable<$window_location_type> {
+export type $window_location_T = Location|undefined
+export interface window_location_T extends Writable$<$window_location_T> {
 	reset_window_location:()=>void
 	reset__location__window:()=>void
 }

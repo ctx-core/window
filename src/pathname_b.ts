@@ -1,9 +1,12 @@
 import { _b } from '@ctx-core/object'
-import type { maybe_null } from '@ctx-core/function'
-import { Writable, writable } from '@ctx-core/store'
-export const pathname_b = _b('__pathname', ()=>
-	writable(null) as pathname_type
+import { Writable$, writable$ } from '@ctx-core/store'
+const key = 'pathname'
+export interface pathname_Ctx {
+	pathname?:pathname_T
+}
+export const pathname_b = _b<pathname_Ctx, typeof key>(key, ()=>
+	writable$(undefined) as pathname_T
 )
-export type $pathname_type = maybe_null<string>
-export interface pathname_type extends Writable<$pathname_type> {}
+export type $pathname_T = string|undefined
+export interface pathname_T extends Writable$<$pathname_T> {}
 export { pathname_b as b__pathname }

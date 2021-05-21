@@ -1,16 +1,20 @@
 import { _b } from '@ctx-core/object'
-import type { maybe_null } from '@ctx-core/function'
-import { derived, Readable } from '@ctx-core/store'
-import { $hostname_type, hostname_b } from './hostname_b'
-import { $window_location_type, window_location_b } from './window_location_b'
-export const window_location_hostname_b = _b('window_location_hostname', ctx=>
-	derived([
+import { derived$, Readable$ } from '@ctx-core/store'
+import { hostname_b, hostname_Ctx } from './hostname_b'
+import { window_location_b, window_location_Ctx } from './window_location_b'
+const key = 'window_location_hostname'
+export interface window_location_hostname_Ctx
+	extends hostname_Ctx, window_location_Ctx {
+	window_location_hostname?:window_location_hostname_T
+}
+export const window_location_hostname_b = _b<window_location_hostname_Ctx, typeof key>(key, ctx=>
+	derived$([
 			hostname_b(ctx),
 			window_location_b(ctx),
 		],
-		([hostname, location__window]:[$hostname_type, $window_location_type])=>
-			(location__window && (location__window as Location).hostname) || hostname || ''
-	) as window_location_hostname_type
+		([hostname, window_location])=>
+			(window_location && (window_location as Location).hostname) || hostname || ''
+	) as window_location_hostname_T
 )
-export type $window_location_hostname_type = maybe_null<string>
-export interface window_location_hostname_type extends Readable<$window_location_hostname_type> {}
+export type $window_location_hostname_T = string|undefined
+export interface window_location_hostname_T extends Readable$<$window_location_hostname_T> {}

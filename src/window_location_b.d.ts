@@ -1,8 +1,10 @@
-import { Writable } from '@ctx-core/store';
-import type { maybe } from '@ctx-core/function';
-export declare const window_location_b: import("@ctx-core/object").Be<window_location_type, object>;
-export declare type $window_location_type = maybe<Location>;
-export interface window_location_type extends Writable<$window_location_type> {
+import { Writable$ } from '@ctx-core/store';
+export interface window_location_Ctx {
+    window_location?: window_location_T;
+}
+export declare const window_location_b: import("@ctx-core/object").Be<window_location_Ctx, "window_location">;
+export declare type $window_location_T = Location | undefined;
+export interface window_location_T extends Writable$<$window_location_T> {
     reset_window_location: () => void;
     reset__location__window: () => void;
 }

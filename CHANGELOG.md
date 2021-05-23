@@ -1,5 +1,11 @@
 # @ctx-core/window
 
+## 9.2.0
+
+### Minor Changes
+
+- - window_Ctx
+
 ## 9.1.7
 
 ### Patch Changes

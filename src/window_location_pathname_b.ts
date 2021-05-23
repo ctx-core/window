@@ -1,13 +1,10 @@
 import { _b } from '@ctx-core/object'
 import { derived$, Readable$ } from '@ctx-core/store'
-import { $pathname_T, pathname_b, pathname_Ctx } from './pathname_b'
-import { $window_location_T, window_location_b, window_location_Ctx } from './window_location_b'
+import { $pathname_T, pathname_b } from './pathname_b'
+import { $window_location_T, window_location_b } from './window_location_b'
+import type { window_Ctx } from './window_Ctx'
 const key = 'window_location_pathname'
-export interface window_location_pathname_Ctx
-	extends pathname_Ctx, window_location_Ctx {
-	window_location_pathname?:window_location_pathname_T
-}
-export const window_location_pathname_b = _b<window_location_pathname_Ctx, typeof key>(key, ctx=>
+export const window_location_pathname_b = _b<window_Ctx, typeof key>(key, ctx=>
 	derived$([
 			pathname_b(ctx),
 			window_location_b(ctx),

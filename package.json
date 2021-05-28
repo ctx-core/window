@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/window",
-	"version": "9.4.3",
+	"version": "9.4.4",
 	"description": "ctx-core window",
 	"keywords": [
 		"ctx-core",
@@ -35,7 +35,7 @@
 		"svelte": "3.38.2"
 	},
 	"devDependencies": {
-		"@ctx-core/dev-tools": "workspace:^4.0.1",
+		"@ctx-core/dev-tools": "workspace:^4.0.2",
 		"typescript": "^4.3.2"
 	},
 	"publishConfig": {

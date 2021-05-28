@@ -1,5 +1,11 @@
 # @ctx-core/window
 
+## 9.4.2
+
+### Patch Changes
+
+- - window_b_h_b
+
 ## 9.4.1
 
 ### Patch Changes

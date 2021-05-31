@@ -1,10 +1,10 @@
-import { _b } from '@ctx-core/object'
+import { be_ } from '@ctx-core/object'
 import { derived$, Readable$ } from '@ctx-core/store'
 import { hostname_b } from './hostname_b'
 import { window_location_b } from './window_location_b'
 import type { window_Ctx } from './window_Ctx'
 const key = 'window_location_hostname'
-export const window_location_hostname_b = _b<window_Ctx, typeof key>(key, ctx=>
+export const window_location_hostname_b = be_<window_Ctx, typeof key>(key, ctx=>
 	derived$([
 			hostname_b(ctx),
 			window_location_b(ctx),

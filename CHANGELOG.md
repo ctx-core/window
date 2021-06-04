@@ -1,5 +1,11 @@
 # @ctx-core/window
 
+## 9.4.14
+
+### Patch Changes
+
+- update dependencies
+
 ## 9.4.13
 
 ### Patch Changes

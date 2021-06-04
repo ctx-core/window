@@ -1,5 +1,13 @@
 # @ctx-core/window
 
+## 9.4.13
+
+### Patch Changes
+
+- update dependencies
+- Updated dependencies [undefined]
+  - @ctx-core/dom@9.0.4
+
 ## 9.4.12
 
 ### Patch Changes

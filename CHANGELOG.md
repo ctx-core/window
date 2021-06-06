@@ -1,5 +1,16 @@
 # @ctx-core/window
 
+## 9.4.20
+
+### Patch Changes
+
+- fix: build: clean up old build files in dist
+- Updated dependencies [undefined]
+  - @ctx-core/dom@9.0.9
+  - @ctx-core/function@18.1.2
+  - @ctx-core/object@19.1.2
+  - @ctx-core/store@25.1.12
+
 ## 9.4.19
 
 ### Patch Changes

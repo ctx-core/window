@@ -1,9 +1,9 @@
-import { be_, assign } from '@ctx-core/object'
+import { B, be_, assign } from '@ctx-core/object'
 import { has_dom } from '@ctx-core/dom'
 import { Writable$, writable$ } from '@ctx-core/store'
 import type { window_Ctx } from './window_Ctx'
 const key = 'window_location'
-export const window_location_b = be_<window_Ctx, typeof key>(key, ()=>{
+export const window_location_b:B<window_Ctx, typeof key> = be_(key, ()=>{
 	const window_location = writable$<$window_location_T>(undefined)
 	const window_location_reload_popstate_bound =
 		writable$(undefined) as Writable$<boolean|undefined>

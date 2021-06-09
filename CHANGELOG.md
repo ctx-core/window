@@ -1,5 +1,11 @@
 # @ctx-core/window
 
+## 9.4.25
+
+### Patch Changes
+
+- fix: B: inferred type issue
+
 ## 9.4.24
 
 ### Patch Changes

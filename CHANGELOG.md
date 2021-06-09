@@ -1,5 +1,14 @@
 # @ctx-core/window
 
+## 9.4.24
+
+### Patch Changes
+
+- update dependencies
+- Updated dependencies [undefined]
+  - @ctx-core/dom@9.0.13
+  - @ctx-core/store@25.1.19
+
 ## 9.4.23
 
 ### Patch Changes

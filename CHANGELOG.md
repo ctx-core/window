@@ -1,5 +1,13 @@
 # @ctx-core/window
 
+## 10.0.28
+
+### Patch Changes
+
+- update dependencies
+- Updated dependencies [undefined]
+  - @ctx-core/dom@10.0.24
+
 ## 10.0.27
 
 ### Patch Changes

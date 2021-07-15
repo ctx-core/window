@@ -1,15 +1,15 @@
 import { B, be_ } from '@ctx-core/object'
 import { derived$, Readable$ } from '@ctx-core/store'
-import { $pathname_T, pathname_b } from './pathname_b'
-import { $window_location_T, window_location_b } from './window_location_b'
+import { pathname$_b } from './pathname$_b.js'
+import { window_location$_b } from './window_location$_b.js'
 import type { window_Ctx } from './window_Ctx'
 const key = 'window_location_pathname'
 export const window_location_pathname_b:B<window_Ctx, typeof key> = be_(key, ctx=>
 	derived$([
-			pathname_b(ctx),
-			window_location_b(ctx),
+			pathname$_b(ctx),
+			window_location$_b(ctx),
 		],
-		([pathname, location__window]:[$pathname_T, $window_location_T])=>
+		([pathname, location__window]:[string|undefined, Location|undefined])=>
 			(location__window && (location__window as Location).pathname)
 			|| pathname
 			|| ''

@@ -1,5 +1,16 @@
 # @ctx-core/window
 
+## 11.0.5
+
+### Patch Changes
+
+- back to esm module with cjs using esm npm package to load library
+- Updated dependencies [undefined]
+  - @ctx-core/dom@11.0.7
+  - @ctx-core/function@20.0.5
+  - @ctx-core/object@21.0.5
+  - @ctx-core/store@27.0.4
+
 ## 11.0.4
 
 ### Patch Changes

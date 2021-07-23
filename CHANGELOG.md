@@ -1,5 +1,11 @@
 # @ctx-core/window
 
+## 11.0.18
+
+### Patch Changes
+
+- fix: \*\_ctx_I.generated
+
 ## 11.0.17
 
 ### Patch Changes

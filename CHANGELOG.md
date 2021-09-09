@@ -1,5 +1,13 @@
 # @ctx-core/window
 
+## 11.0.36
+
+### Patch Changes
+
+- update dependencies
+- Updated dependencies [undefined]
+  - @ctx-core/dom@11.0.23
+
 ## 11.0.35
 
 ### Patch Changes

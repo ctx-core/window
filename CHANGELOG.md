@@ -1,5 +1,13 @@
 # @ctx-core/window
 
+## 11.0.42
+
+### Patch Changes
+
+- svelte: 3.42.6 -> 3.43.0
+- Updated dependencies [undefined]
+  - @ctx-core/store@27.0.32
+
 ## 11.0.41
 
 ### Patch Changes

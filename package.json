@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/window",
-	"version": "11.0.43",
+	"version": "11.0.44",
 	"description": "ctx-core window",
 	"keywords": [
 		"ctx-core",
@@ -37,7 +37,7 @@
 		"generate_ctx_I_file": "./node_modules/.bin/generate_ctx_I_file"
 	},
 	"dependencies": {
-		"@ctx-core/dom": "workspace:^11.0.26",
+		"@ctx-core/dom": "workspace:^11.0.27",
 		"@ctx-core/function": "workspace:^20.2.1",
 		"@ctx-core/object": "workspace:^21.0.20",
 		"@ctx-core/store": "workspace:^27.0.33",

@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/window",
-	"version": "11.0.45",
+	"version": "11.0.46",
 	"description": "ctx-core window",
 	"keywords": [
 		"ctx-core",
@@ -40,9 +40,9 @@
 		"@ctx-core/dom": "workspace:^11.0.28",
 		"@ctx-core/function": "workspace:^20.2.2",
 		"@ctx-core/object": "workspace:^21.0.21",
-		"@ctx-core/store": "workspace:^27.0.34",
+		"@ctx-core/store": "workspace:^27.0.35",
 		"esm": "^3.2.25",
-		"svelte": "3.44.0"
+		"svelte": "3.44.1"
 	},
 	"devDependencies": {
 		"@ctx-core/dev-tools": "workspace:^7.1.4",

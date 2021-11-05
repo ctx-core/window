@@ -1,5 +1,11 @@
 # @ctx-core/window
 
+## 11.1.0
+
+### Minor Changes
+
+- feat: window_location_pathname\$\_b from window_location_pathname_b
+
 ## 11.0.47
 
 ### Patch Changes

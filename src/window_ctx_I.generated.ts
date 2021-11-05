@@ -5,7 +5,7 @@ import type { hostname$_T } from './hostname$_b.js'
 import type { pathname$_T } from './pathname$_b.js'
 import type { window_location$_T } from './window_location$_b.js'
 import type { window_location_hostname$_T } from './window_location_hostname$_b.js'
-import type { window_location_pathname_T } from './window_location_pathname_b.js'
+import type { window_location_pathname_T } from './window_location_pathname$_b.js'
 export interface window_ctx_I {
 	hostname$?:hostname$_T
 	pathname$?:pathname$_T

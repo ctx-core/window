@@ -1,5 +1,11 @@
 # @ctx-core/window
 
+## 11.1.1
+
+### Patch Changes
+
+- fix: window_location_pathname_T,window_location_pathname\$\_T types
+
 ## 11.1.0
 
 ### Minor Changes

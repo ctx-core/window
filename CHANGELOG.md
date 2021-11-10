@@ -1,5 +1,16 @@
 # @ctx-core/window
 
+## 11.1.2
+
+### Patch Changes
+
+- compile using swc
+- Updated dependencies
+  - @ctx-core/dom@11.0.30
+  - @ctx-core/function@20.2.3
+  - @ctx-core/object@21.0.22
+  - @ctx-core/store@27.0.36
+
 ## 11.1.1
 
 ### Patch Changes

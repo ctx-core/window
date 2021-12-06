@@ -1,5 +1,14 @@
 # @ctx-core/window
 
+## 11.1.11
+
+### Patch Changes
+
+- package.json: - "main": explicitly not support cjs
+- Updated dependencies
+  - @ctx-core/dom@11.0.39
+  - @ctx-core/store@27.0.45
+
 ## 11.1.10
 
 ### Patch Changes

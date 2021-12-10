@@ -1,5 +1,3 @@
-export * from './window_Ctx.js'
-export * from './window_ctx_I.generated.js'
 export * from './hostname$_b.js'
 export * from './pathname$_b.js'
 export * from './window_location$_b.js'

@@ -1,5 +1,16 @@
 # @ctx-core/window
 
+## 12.0.5
+
+### Patch Changes
+
+- \*.d.ts export
+- Updated dependencies
+  - @ctx-core/dom@11.0.44
+  - @ctx-core/function@20.2.16
+  - @ctx-core/object@22.0.4
+  - @ctx-core/store@27.0.51
+
 ## 12.0.4
 
 ### Patch Changes

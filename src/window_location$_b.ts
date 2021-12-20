@@ -1,11 +1,11 @@
-import { B, be_, assign } from '@ctx-core/object'
 import { has_dom } from '@ctx-core/dom'
-import { Writable$, writable$ } from '@ctx-core/store'
+import { WritableAtom$, atom$ } from '@ctx-core/nanostores'
+import { B, be_, assign } from '@ctx-core/object'
 const key = 'window_location$'
 export const window_location$_b:B<window_location$_T> = be_(key, ()=>{
-	const window_location$ = writable$<Location|undefined>(undefined)
+	const window_location$ = atom$<Location|undefined>(undefined)
 	const window_location_reload_popstate_bound$ =
-		writable$(undefined) as Writable$<boolean|undefined>
+		atom$(undefined) as WritableAtom$<boolean|undefined>
 	if (has_dom) {
 		reset_window_location()
 	}
@@ -24,7 +24,7 @@ export const window_location$_b:B<window_location$_T> = be_(key, ()=>{
 		window_location$.set(window.location)
 	}
 })
-export interface window_location$_T extends Writable$<Location|undefined> {
+export interface window_location$_T extends WritableAtom$<Location|undefined> {
 	reset_window_location:()=>void
 	reset__location__window:()=>void
 }

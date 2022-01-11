@@ -1,5 +1,17 @@
 # @ctx-core/window
 
+## 13.0.13
+
+### Patch Changes
+
+- update dependencies
+
+## 13.0.12
+
+### Patch Changes
+
+- update dependencies
+
 ## 13.0.11
 
 ### Patch Changes

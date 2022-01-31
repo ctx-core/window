@@ -1,12 +1,12 @@
 import { computed$, ReadableAtom$ } from '@ctx-core/nanostores'
 import { B, be_ } from '@ctx-core/object'
-import { hostname$_b } from './hostname$_b.js'
-import { window_location$_b } from './window_location$_b.js'
+import { hostname$_ } from './hostname$_.js'
+import { window_location$_ } from './window_location$_.js'
 const key = 'window_location_hostname$'
-export const window_location_hostname$_b:B<window_location_hostname$_T> = be_(key, ctx=>
+export const window_location_hostname$_:B<window_location_hostname$_T> = be_(key, ctx=>
 	computed$([
-			hostname$_b(ctx),
-			window_location$_b(ctx),
+			hostname$_(ctx),
+			window_location$_(ctx),
 		],
 		(hostname, window_location)=>
 			(window_location && (window_location as Location).hostname) || hostname || ''

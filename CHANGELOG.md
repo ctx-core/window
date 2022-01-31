@@ -1,5 +1,11 @@
 # @ctx-core/window
 
+## 14.0.0
+
+### Major Changes
+
+- flatten functions: remove \_b suffix from exports
+
 ## 13.0.18
 
 ### Patch Changes

@@ -2,8 +2,7 @@ import { computed$, ReadableAtom$ } from '@ctx-core/nanostores'
 import { B, be_ } from '@ctx-core/object'
 import { pathname$_ } from './pathname$_.js'
 import { window_location$_ } from './window_location$_.js'
-const key = 'window_location_pathname$'
-export const window_location_pathname$_:B<window_location_pathname$_T> = be_(key, ctx=>
+export const window_location_pathname$_:B<window_location_pathname$_T> = be_('window_location_pathname$', ctx=>
 	computed$([
 			pathname$_(ctx),
 			window_location$_(ctx),

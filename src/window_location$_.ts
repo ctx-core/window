@@ -1,8 +1,7 @@
 import { has_dom } from '@ctx-core/dom'
 import { atom$, WritableAtom$ } from '@ctx-core/nanostores'
-import { B, be_, assign } from '@ctx-core/object'
-const key = 'window_location$'
-export const window_location$_:B<window_location$_T> = be_(key, ()=>{
+import { assign, B, be_ } from '@ctx-core/object'
+export const window_location$_:B<window_location$_T> = be_('window_location$', ()=>{
 	const window_location$ = atom$<Location|undefined>(undefined)
 	const window_location_reload_popstate_bound$ =
 		atom$(undefined) as WritableAtom$<boolean|undefined>

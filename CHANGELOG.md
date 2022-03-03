@@ -1,5 +1,11 @@
 # @ctx-core/window
 
+## 14.0.8
+
+### Patch Changes
+
+- .js + .d.ts instead of .ts
+
 ## 14.0.7
 
 ### Patch Changes

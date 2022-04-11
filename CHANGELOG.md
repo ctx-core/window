@@ -1,5 +1,11 @@
 # @ctx-core/window
 
+## 14.0.15
+
+### Patch Changes
+
+- update dependencies
+
 ## 14.0.14
 
 ### Patch Changes

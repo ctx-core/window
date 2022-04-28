@@ -1,5 +1,13 @@
 # @ctx-core/window
 
+## 14.0.21
+
+### Patch Changes
+
+- update dependencies
+- Updated dependencies
+  - @ctx-core/dom@11.1.15
+
 ## 14.0.20
 
 ### Patch Changes

@@ -1,9 +1,9 @@
 import { has_dom } from '@ctx-core/dom'
-import { atom$ } from '@ctx-core/nanostores'
+import { atom_ } from '@ctx-core/nanostores'
 import { assign, be_ } from '@ctx-core/object'
 export const window_location$_ = be_('window_location$', ()=>{
-	const window_location$ = atom$(undefined)
-	const window_location_reload_popstate_bound$ = atom$(undefined)
+	const window_location$ = atom_(undefined)
+	const window_location_reload_popstate_bound$ = atom_(undefined)
 	if (has_dom) {
 		reset_window_location()
 	}

@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/window",
-	"version": "14.0.29",
+	"version": "14.0.30",
 	"description": "ctx-core window",
 	"keywords": [
 		"ctx-core",
@@ -35,7 +35,7 @@
 	"dependencies": {
 		"@ctx-core/dom": "^11.1.21",
 		"@ctx-core/function": "^20.8.0",
-		"@ctx-core/nanostores": "^1.2.0",
+		"@ctx-core/nanostores": "^1.3.0",
 		"@ctx-core/object": "^22.2.0"
 	},
 	"devDependencies": {

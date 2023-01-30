@@ -1,5 +1,11 @@
 # @ctx-core/window
 
+## 14.1.38
+
+### Patch Changes
+
+- @ctx-core/nanostores: ^2.2.15 -> ^2.2.16
+
 ## 14.1.37
 
 ### Patch Changes

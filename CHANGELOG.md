@@ -1,5 +1,11 @@
 # @ctx-core/window
 
+## 14.2.0
+
+### Minor Changes
+
+- extract _.js & _.d.ts into directories
+
 ## 14.1.70
 
 ### Patch Changes

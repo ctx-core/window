@@ -1,5 +1,15 @@
 # @ctx-core/window
 
+## 14.1.70
+
+### Patch Changes
+
+- @ctx-core/object: ^25.0.0 -> ^25.0.1
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/dom@11.4.12
+  - @ctx-core/nanostores@2.2.30
+
 ## 14.1.69
 
 ### Patch Changes

@@ -1,5 +1,3 @@
 export * from './hostname__'
 export * from './pathname__'
 export * from './window_location__'
-export * from './window_location_hostname__'
-export * from './window_location_pathname__'

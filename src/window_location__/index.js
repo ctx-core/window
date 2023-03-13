@@ -1,23 +1,35 @@
-import { has_dom } from '@ctx-core/dom'
-import { atom_ } from '@ctx-core/nanostores'
-import { assign, be_ } from '@ctx-core/object'
+import { has_dom, no_dom } from '@ctx-core/dom'
+import { atom_, computed_ } from '@ctx-core/nanostores'
+import { be_ } from '@ctx-core/object'
+const window_location__atom_ = be_('window_location__atom_', ()=>
+	atom_())
+/** @typedef {import('@ctx-core/nanostores').WritableAtom_}WritableAtom_ */
+/** @typedef {import('@ctx-core/object').Be}Be */
+/** @typedef {import('@ctx-core/object').Ctx}Ctx */
 /** @type {typeof import('./index.d.ts').window_location__} */
-export const window_location__ = be_('window_location__', ()=>{
-	const window_location_ = atom_(undefined)
-	const window_location__onpopstate__bound_ = atom_(false)
+export const window_location__ = be_('window_location__', ctx=>{
 	if (has_dom) {
-		window_location__reset()
+		window.addEventListener('popstate', ()=>
+			window_location__reset(ctx))
 	}
-	return assign(window_location_, {
-		window_location__reset
-	})
-	function window_location__reset() {
-		if (!has_dom) return
-		if (!window_location__onpopstate__bound_.$) {
-			window_location__onpopstate__bound_.set(true)
-			window.addEventListener('popstate', window_location__reset)
-		}
-		window_location_.set(window.location)
-	}
+	return computed_(
+		window_location__atom_(ctx),
+		$=>$)
 })
 export { window_location__ as window_location$_ }
+/**
+ * @param {Ctx}ctx
+ * @returns {Location}
+ * @private
+ */
+export function window_location_(ctx) {
+  return window_location__(ctx).$
+}
+/** @typedef {Be<WritableAtom_<boolean>>} */
+/**
+ * @param {Ctx}ctx
+ */
+export function window_location__reset(ctx) {
+	if (no_dom) return
+	window_location__atom_(ctx).$ = window.location
+}

@@ -1,5 +1,26 @@
 # @ctx-core/window
 
+## 15.0.0
+
+### Major Changes
+
+- window*location\_\_: Be<ReadableAtom*<Location>>
+- pathname\__:Be<ReadableAtom_<string>>
+- window_location**: - window_location**reset
+- hostname\__:Be<ReadableAtom_<string|undefined>>
+- - window_location\_\_T
+
+### Minor Changes
+
+- - window_location\_\_reset
+- - window*location*
+- - hostname\_
+- - pathname\_
+
+### Patch Changes
+
+- fix: run on server
+
 ## 14.2.28
 
 ### Patch Changes

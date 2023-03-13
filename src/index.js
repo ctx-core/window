@@ -1,5 +1,3 @@
 export * from './hostname__/index.js'
 export * from './pathname__/index.js'
 export * from './window_location__/index.js'
-export * from './window_location_hostname__/index.js'
-export * from './window_location_pathname__/index.js'

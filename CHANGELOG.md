@@ -1,5 +1,11 @@
 # @ctx-core/window
 
+## 15.0.22
+
+### Patch Changes
+
+- @ctx-core/dom: ^14.0.9 -> ^14.1.0
+
 ## 15.0.21
 
 ### Patch Changes

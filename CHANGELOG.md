@@ -1,5 +1,11 @@
 # @ctx-core/window
 
+## 15.0.92
+
+### Patch Changes
+
+- @ctx-core/nanostores: ^4.2.6 -> ^4.2.7
+
 ## 15.0.91
 
 ### Patch Changes

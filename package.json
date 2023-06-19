@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/window",
-	"version": "15.0.98",
+	"version": "15.0.99",
 	"description": "ctx-core window",
 	"keywords": [
 		"ctx-core",
@@ -33,7 +33,7 @@
 		"test-unit-coverage": "c8 pnpm test-unit"
 	},
 	"dependencies": {
-		"@ctx-core/dom": "^14.1.53",
+		"@ctx-core/dom": "^14.1.54",
 		"@ctx-core/function": "^21.18.0",
 		"@ctx-core/nanostores": "^5.1.0",
 		"@ctx-core/object": "^28.0.2"

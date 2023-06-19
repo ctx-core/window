@@ -1,3 +1,3 @@
-export * from './hostname__'
-export * from './pathname__'
-export * from './window_location__'
+export * from './hostname'
+export * from './pathname'
+export * from './window_location'

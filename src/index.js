@@ -1,3 +1,3 @@
-export * from './hostname__/index.js'
-export * from './pathname__/index.js'
-export * from './window_location__/index.js'
+export * from './hostname/index.js'
+export * from './pathname/index.js'
+export * from './window_location/index.js'

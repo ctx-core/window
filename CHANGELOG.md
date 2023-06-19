@@ -1,5 +1,15 @@
 # @ctx-core/window
 
+## 15.0.100
+
+### Patch Changes
+
+- \*$\_ name convention:
+
+      hostname$_: aliased by hostname__
+      pathname$_: aliased by pathname__
+      window_location$_: aliased by window_location__
+
 ## 15.0.99
 
 ### Patch Changes

@@ -10,7 +10,7 @@ const window_location__atom$_ = be_(()=>
 export const [
 	window_location$_,
 	window_location_,
-] = val__be_computed_pair_('window_location$_', (ctx, asub)=>{
+] = val__be_computed_pair_('window_location$_', ctx=>{
 	if (has_dom) {
 		let onpopstate = ()=>window_location__reset(ctx)
 		asub

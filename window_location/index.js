@@ -20,7 +20,6 @@ export const [
 	return window_location__atom$_(ctx)
 })
 export { window_location$_ as window_location__ }
-/** @typedef {Be<WritableAtom_<boolean>>} */
 /**
  * @param {Ctx}ctx
  */

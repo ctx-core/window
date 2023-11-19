@@ -1,5 +1,13 @@
 # @ctx-core/window
 
+## 15.1.19
+
+### Patch Changes
+
+- fix: be*computed_pair* instances
+- Updated dependencies
+  - @ctx-core/nanostores@9.0.1
+
 ## 15.1.18
 
 ### Patch Changes

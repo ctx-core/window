@@ -1,12 +1,10 @@
+/// <reference types="ctx-core" />
 import { has_dom, no_dom } from '@ctx-core/dom'
 import { atom_, be_computed_pair_, computed_, onMount } from '@ctx-core/nanostores'
-import { be_ } from '@ctx-core/object'
+import { be_ } from 'ctx-core/be'
 const window_location__atom$_ = be_(()=>
 	atom_())
-/** @typedef {import('@ctx-core/object').be_atom_triple_T} */
 /** @typedef {import('@ctx-core/nanostores').WritableAtom_} */
-/** @typedef {import('@ctx-core/object').Be} */
-/** @typedef {import('@ctx-core/object').Ctx} */
 /** @type {typeof import('./index.d.ts').window_location$_} */
 export const [
 	window_location$_,

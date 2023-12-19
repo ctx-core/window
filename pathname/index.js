@@ -1,8 +1,10 @@
-import { nullish__none_ } from '@ctx-core/function'
+/// <reference types="ctx-core" />
+/// <reference types="./index.d.ts" />
 import { be_computed_pair_ } from '@ctx-core/nanostores'
+import { nullish__none_ } from 'ctx-core/function'
 import { window_location$_ } from '../window_location/index.js'
-/** @typedef {import('@ctx-core/object').Ctx} */
-/** @type {typeof import('./index.d.ts').pathname$_} */
+/** @typedef {Ctx} */
+/** @type {typeof pathname$_} */
 export const [
 	pathname$_,
 	pathname_,

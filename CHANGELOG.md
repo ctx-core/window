@@ -1,5 +1,13 @@
 # @ctx-core/window
 
+## 15.1.65
+
+### Patch Changes
+
+- consolidate dependencies
+- Updated dependencies
+  - ctx-core@5.1.0
+
 ## 15.1.64
 
 ### Patch Changes

@@ -1,5 +1,5 @@
 import type { be_computed_pair_T } from '@ctx-core/nanostores'
-import type { Ctx } from '@ctx-core/object'
+import type { Ctx } from 'ctx-core/be'
 export declare const [
 	window_location$_,
 	window_location_,

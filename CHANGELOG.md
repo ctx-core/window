@@ -1,5 +1,16 @@
 # @ctx-core/window
 
+## 15.1.66
+
+### Patch Changes
+
+- tsx: ^4.6.2 -> ^4.7.0
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/dom@15.1.60
+  - @ctx-core/nanostores@10.0.4
+
 ## 15.1.65
 
 ### Patch Changes

@@ -1,31 +1,29 @@
 /// <reference types="ctx-core" />
+/// <reference types="./index.d.ts" />
 import { has_dom, no_dom } from '@ctx-core/dom'
-import { atom_, be_computed_pair_, computed_, onMount } from '@ctx-core/nanostores'
 import { be_ } from 'ctx-core/be'
-const window_location__atom$_ = be_(()=>
-	atom_())
-/** @typedef {import('@ctx-core/nanostores').WritableAtom_} */
-/** @type {typeof import('./index.d.ts').window_location$_} */
+import { be_memo_pair_, memo_, sig_ } from 'ctx-core/rmemo'
+const window_location__sig$_ = be_(()=>
+	sig_())
+/** @type {typeof window_location$_} */
 export const [
 	window_location$_,
 	window_location_,
-] = /** @type {be_computed_pair_T<Location>} */ be_computed_pair_(be_(ctx=>{
-	const window_location$ = computed_(window_location__atom$_(ctx),
-		window_location__atom=>window_location__atom)
-	if (has_dom) {
-		let onpopstate = ()=>window_location__reset(ctx)
-		onMount(window_location$, ()=>{
+] = /** @type {be_memo_pair_T<Location>} */ be_memo_pair_(be_(ctx=>
+	memo_(()=>
+		window_location__sig$_(ctx)(),
+	()=>{
+		if (has_dom) {
+			let onpopstate = ()=>window_location__reset(ctx)
 			window.addEventListener('popstate', onpopstate)
-			return ()=>window.removeEventListener('popstate', onpopstate)
-		})
-	}
-	return window_location$
-}, { id: 'window_location' }))
+		}
+	}),
+{ id: 'window_location' }))
 export { window_location$_ as window_location__ }
 /**
  * @param {Ctx}ctx
  */
 export function window_location__reset(ctx) {
 	if (no_dom) return
-	window_location__atom$_(ctx).$ = window.location
+	window_location__sig$_(ctx)._ = window.location
 }

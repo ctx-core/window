@@ -1,5 +1,11 @@
 # @ctx-core/window
 
+## 16.0.0
+
+### Major Changes
+
+- rmemo instead of @ctx-core/nanostores
+
 ## 15.1.76
 
 ### Patch Changes

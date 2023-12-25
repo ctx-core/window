@@ -1,8 +1,8 @@
-import type { be_computed_pair_T } from '@ctx-core/nanostores'
+import type { be_memo_pair_T } from 'ctx-core/rmemo'
 export declare const [
 	pathname$_,
 	pathname_,
-]:be_computed_pair_T<string>
+]:be_memo_pair_T<string>
 export {
 	pathname$_ as pathname__,
 	pathname$_ as b__pathname,

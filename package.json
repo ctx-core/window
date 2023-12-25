@@ -21,9 +21,9 @@
 		"*.d.ts",
 		"*.js",
 		"*.json",
-		"./hostname",
-		"./pathname",
-		"./window_location"
+		"hostname",
+		"pathname",
+		"window_location"
 	],
 	"types": "./index.d.ts",
 	"exports": {

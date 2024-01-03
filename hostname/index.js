@@ -1,7 +1,6 @@
 /// <reference types="ctx-core" />
 /// <reference types="./index.d.ts" />
-import { nullish__none_ } from 'ctx-core/function'
-import { be_memo_pair_ } from 'ctx-core/rmemo'
+import { be_memo_pair_, nullish__none_ } from 'ctx-core/rmemo'
 import { window_location$_ } from '../window_location/index.js'
 /** @type {typeof hostname$_} */
 export const [

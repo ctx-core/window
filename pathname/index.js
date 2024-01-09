@@ -9,8 +9,9 @@ export const [
 	pathname_,
 ] = be_memo_pair_(
 	ctx=>
-		nullish__none_([window_location_(ctx)], window_location=>
-			window_location.pathname),
+		nullish__none_([window_location_(ctx)],
+			window_location=>
+				window_location.pathname),
 	{ id: 'pathname' })
 export {
 	pathname$_ as pathname__,

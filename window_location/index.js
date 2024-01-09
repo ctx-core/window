@@ -2,23 +2,23 @@
 /// <reference types="./index.d.ts" />
 import { has_dom, no_dom } from '@ctx-core/dom'
 import { be_ } from 'ctx-core/be'
-import { be_memo_pair_, memo_, sig_ } from 'ctx-core/rmemo'
+import { be_memo_pair_, sig_ } from 'ctx-core/rmemo'
 const window_location__sig$_ = be_(()=>
 	sig_())
 /** @type {typeof window_location$_} */
 export const [
 	window_location$_,
 	window_location_,
-] = /** @type {be_memo_pair_T<Location>} */ be_memo_pair_(be_(ctx=>
-	memo_(()=>
-		window_location__sig$_(ctx)(),
-	()=>{
+] = /** @type {be_memo_pair_T<Location>} */
+	be_memo_pair_(
+		ctx=>window_location__sig$_(ctx)(),
+		{ id: 'window_location' }
+	).add(ctx=>{
 		if (has_dom) {
 			let onpopstate = ()=>window_location__reset(ctx)
 			window.addEventListener('popstate', onpopstate)
 		}
-	}),
-{ id: 'window_location' }))
+	})
 export { window_location$_ as window_location__ }
 /**
  * @param {Ctx}ctx

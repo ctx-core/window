@@ -1,5 +1,13 @@
 # @ctx-core/window
 
+## 16.0.34
+
+### Patch Changes
+
+- ctx-core: ^5.23.0 -> ^5.24.0
+- Updated dependencies
+  - @ctx-core/dom@15.2.33
+
 ## 16.0.33
 
 ### Patch Changes

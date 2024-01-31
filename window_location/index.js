@@ -1,7 +1,7 @@
 /// <reference types="ctx-core" />
-/// <reference types="./index.d.ts" />
-import { has_dom, no_dom } from '@ctx-core/dom'
 import { be_ } from 'ctx-core/be'
+/// <reference types="./index.d.ts" />
+import { is_browser_, is_server_ } from 'ctx-core/env'
 import { be_memo_pair_, sig_ } from 'ctx-core/rmemo'
 const window_location__sig$_ = be_(()=>
 	sig_())
@@ -14,7 +14,7 @@ export const [
 		ctx=>window_location__sig$_(ctx)(),
 		{ id: 'window_location' }
 	).add(ctx=>{
-		if (has_dom) {
+		if (is_browser_()) {
 			let onpopstate = ()=>window_location__reset(ctx)
 			window.addEventListener('popstate', onpopstate)
 		}
@@ -24,6 +24,6 @@ export { window_location$_ as window_location__ }
  * @param {Ctx}ctx
  */
 export function window_location__reset(ctx) {
-	if (no_dom) return
+	if (is_server_()) return
 	window_location__sig$_(ctx)._ = window.location
 }

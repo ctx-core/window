@@ -1,5 +1,14 @@
 # @ctx-core/window
 
+## 16.0.61
+
+### Patch Changes
+
+- patch:
+
+      - ∋ @ctx-core/dom
+      optimize imports
+
 ## 16.0.60
 
 ### Patch Changes

@@ -1,5 +1,5 @@
-import type { be_memo_pair_T } from 'ctx-core/rmemo'
 import type { Ctx } from 'ctx-core/be'
+import type { be_memo_pair_T } from 'ctx-core/rmemo'
 export declare const [
 	window_location$_,
 	window_location_,

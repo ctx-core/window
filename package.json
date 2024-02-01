@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/window",
-	"version": "16.0.62",
+	"version": "16.0.63",
 	"description": "ctx-core window",
 	"keywords": [
 		"ctx-core",
@@ -41,7 +41,7 @@
 		"test:unit:coverage": "c8 pnpm test:unit"
 	},
 	"dependencies": {
-		"ctx-core": "^5.36.2"
+		"ctx-core": "^5.36.3"
 	},
 	"devDependencies": {
 		"c8": "^9.1.0",

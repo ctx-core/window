@@ -2,7 +2,7 @@
 /// <reference types="./index.d.ts" />
 import { be_memo_pair_, nullish__none_ } from 'ctx-core/rmemo'
 import { window_location_ } from '../window_location/index.js'
-/** @typedef {Ctx} */
+/** @typedef {ctx_T} */
 /** @type {typeof pathname$_} */
 export const [
 	pathname$_,

@@ -21,7 +21,7 @@ export const [
 	})
 export { window_location$_ as window_location__ }
 /**
- * @param {Ctx}ctx
+ * @param {ctx_T}ctx
  */
 export function window_location__reset(ctx) {
 	if (is_server_()) return

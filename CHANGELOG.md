@@ -1,5 +1,11 @@
 # @ctx-core/window
 
+## 16.0.88
+
+### Patch Changes
+
+- ctx-core: ^6.5.4 -> ^6.5.5
+
 ## 16.0.87
 
 ### Patch Changes

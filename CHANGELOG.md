@@ -1,5 +1,12 @@
 # @ctx-core/window
 
+## 16.0.104
+
+### Patch Changes
+
+- Updated dependencies
+  - ctx-core@7.0.0
+
 ## 16.0.103
 
 ### Patch Changes

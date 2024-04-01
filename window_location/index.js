@@ -27,5 +27,5 @@ export { window_location$_ as window_location__ }
  */
 export function window_location__reset(ctx) {
 	if (is_server_()) return
-	window_location__sig$_(ctx)._ = window.location
+	window_location__sig$_(ctx).set(window.location)
 }

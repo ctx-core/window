@@ -1,5 +1,13 @@
 # @ctx-core/window
 
+## 16.0.146
+
+### Patch Changes
+
+- chore: migrate scripts from pnpm to bun
+- Updated dependencies
+  - ctx-core@7.2.34
+
 ## 16.0.145
 
 ### Patch Changes
